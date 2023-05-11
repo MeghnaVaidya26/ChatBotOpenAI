@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">ChatBot OpenAI</string>
+
+
+    <string name="history">History</string>
+
+    <string name="recent_chat">Recently Chats</string>
+    <string name="clear_all">Clear All</string>
+    <string name="type_a_message">Type a message..</string>
+    <string name="yes">yes</string>
+    <string name="no">No</string>
+    <string name="are_you_sure_you_want_to_clear_chat">Are you sure you want to clear chat?</string>
+    <string name="are_you_sure_you_want_to_clear_message">Are you sure you want to clear message?</string>
+    <string name="no_internet_connection">No internet connection</string>
+    <string name="please_enter_message">Please enter message</string>
+
+    <string name="not_now">Not Now</string>
+    <string name="all_messages_are_cleared">All chats are deleted.</string>
+    <string name="message_deleted">Chat is deleted</string>
+    <string name="no_recent_chats_found">No recent chats are found</string>
+
+
+</resources>

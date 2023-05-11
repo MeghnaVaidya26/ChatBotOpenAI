@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimary"
+    android:paddingStart="@dimen/_4sdp"
+    android:paddingTop="@dimen/_10sdp"
+    android:paddingEnd="@dimen/_4sdp"
+    android:paddingBottom="@dimen/_10sdp">
+
+    <ImageView
+        android:layout_width="@dimen/_14sdp"
+        android:layout_height="@dimen/_14sdp"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_recent_chat_seen" />
+
+    <TextView
+        android:id="@+id/tv_chat_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_12sdp"
+        android:layout_weight="1"
+        android:fontFamily="@font/sfprodisplayregular"
+        android:includeFontPadding="false"
+        android:maxLines="3"
+
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/_14ssp"
+        tools:text="10 examples title course" />
+
+    <ImageView
+        android:id="@+id/iv_delete_chat"
+        android:layout_width="@dimen/_16sdp"
+        android:layout_height="@dimen/_16sdp"
+        android:layout_marginEnd="@dimen/_6sdp"
+        android:src="@drawable/ic_gray_close" />
+</LinearLayout>
